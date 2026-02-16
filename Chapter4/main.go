@@ -19,9 +19,14 @@ func main() {
 	// number := 1232
 	// fmt.Println(palindrome(number))
 
-	fmt.Println("\n=== Binary to Decimal ===")
-	binary := 1101
-	fmt.Println(binaryToDecimal(binary))
+	// fmt.Println("\n=== Binary to Decimal ===")
+	// binary := 1101
+	// fmt.Println(binaryToDecimal(binary))
 
+	fmt.Println("\n === Collect input till user input add up to target number ===")
+	var targetNumber int
+	fmt.Print("Enter a target number: ")
+	fmt.Scan(&targetNumber)
 
+	readingInputToSatisfaction(targetNumber)
 }
