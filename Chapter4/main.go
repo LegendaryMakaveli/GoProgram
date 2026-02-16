@@ -15,9 +15,13 @@ func main() {
 	// fmt.Println("\n=== Dangling Else Statement ===")
 	// danglingElseStatement()
 
-	fmt.Println("\n=== Palindrome ===")
-	number := 1232
-	fmt.Println(palindrome(number))
+	// fmt.Println("\n=== Palindrome ===")
+	// number := 1232
+	// fmt.Println(palindrome(number))
+
+	fmt.Println("\n=== Binary to Decimal ===")
+	binary := 1101
+	fmt.Println(binaryToDecimal(binary))
 
 
 }
