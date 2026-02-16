@@ -23,10 +23,21 @@ func main() {
 	// binary := 1101
 	// fmt.Println(binaryToDecimal(binary))
 
-	fmt.Println("\n === Collect input till user input add up to target number ===")
-	var targetNumber int
-	fmt.Print("Enter a target number: ")
-	fmt.Scan(&targetNumber)
+	// fmt.Println("\n === Collect input till user input add up to target number ===")
+	// var targetNumber int
+	// fmt.Print("Enter a target number: ")
+	// fmt.Scan(&targetNumber)
 
-	readingInputToSatisfaction(targetNumber)
+	// readingInputToSatisfaction(targetNumber)
+
+	fmt.Println("\n === Comperator ===")
+	var firNstNumber int
+	var secondNumber int
+	
+	fmt.Print("Enter first number: ")
+	fmt.Scan(&firNstNumber)
+	fmt.Print("Enter second number: ")
+	fmt.Scan(&secondNumber)
+	
+	fmt.Println(comparator(firNstNumber, secondNumber))
 }
